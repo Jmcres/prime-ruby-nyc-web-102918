@@ -1,5 +1,5 @@
 # Add  code here!
-def prime?(int)
+def prime?(number)
    return false if (number.even? && number > 2) || number <= 1
 
   half_num = number / 2
